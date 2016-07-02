@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127D66868C3F8BE956CD3824CDEA1790 /* Pods-LeanStorageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BABFBCBEC5CB52784A0B8DF24935D6 /* Pods-LeanStorageDemo-dummy.m */; };
+		1A9019F62F7053871D79BF71B4655275 /* LZAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5943DB2A1BBD3C8D3948550377B2698 /* LZAlertViewHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BD72E8DA6CED6A1B7A9A460BEFE33DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1E86F4F1D57CEDE832E49ED45A57752D /* LZAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F09EDE14A23E202BCCDC5829B9DE099B /* LZAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841285EB8D0B3F8389FFE1BB6071AA4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E69492EF843BF42DCC055F66C15612EE /* LZAlertViewHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95282DCE625FC0CC74966A2C1805A000 /* LZAlertViewHelper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19763268114845664BE51F645A3CDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A87E38DE11E16B12FD9F2254125E7F;
+			remoteInfo = LZAlertViewHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02793FFAB9AB20B0AF3AC3858FD2369B /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		04BABFBCBEC5CB52784A0B8DF24935D6 /* Pods-LeanStorageDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeanStorageDemo-dummy.m"; sourceTree = "<group>"; };
+		0A37BADACE050D41EDA8DE11F4F46D81 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		1DA648950CAA27C1C8053124CB9186E8 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		20461D5589154FEC1F7980EF61923360 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		25E80603380D9524959185A0FF3040A7 /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		2769D6DD3FA42D56A6EDECDDE3A65892 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		2CB28CC226D603C2F5ADACAFEAFE3626 /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		30D4D3C8020CCBB04501E3772DE830CF /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		3B01C8F6056FAE914983551DEF96BD9B /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		45D4612AC06FA8BF161663E4D2221628 /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		47F2DC8E5F2C4A0E4A4EA45E655016A6 /* libLZAlertViewHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLZAlertViewHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A656A50643E5804C826CC05B790A3E /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		5A9A9EB799388F0427D25A12391C4E14 /* Pods-LeanStorageDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeanStorageDemo-resources.sh"; sourceTree = "<group>"; };
+		5AE4CA0DC277540E9B16EDF9C0B1D842 /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		642F5EC7A061BBE7706CC8AFE27605C0 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		74F6C9C6ECE84829A863419C917B018B /* LZAlertViewHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZAlertViewHelper.xcconfig; sourceTree = "<group>"; };
+		88FDCACF72FC538F0963FEE709AB46C6 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		8A530DBA9F68334D95AD9B9AA888BE63 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		8DF73AD9975B3CDB8DDD36083F37ED97 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		8FF481E5794614C2A8F8DA5B2B5AE61E /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95282DCE625FC0CC74966A2C1805A000 /* LZAlertViewHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZAlertViewHelper-dummy.m"; sourceTree = "<group>"; };
+		977DE5C6A4DAA9AF552187343AFE447C /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		9BBB262D945C17359D1798C331070D15 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		A27DFFBEB52B84E8D09C834FDDF12754 /* Pods-LeanStorageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeanStorageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A79E83253F49FC025A4794BD5F1B34C4 /* Pods-LeanStorageDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeanStorageDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABA94FA636097F3A17F7DE38A422EA47 /* LZAlertViewHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZAlertViewHelper-prefix.pch"; sourceTree = "<group>"; };
+		B0C44132C1242DA21C65D6C1974FDD5F /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		B3E4274241416520E06C53BA8265CB5D /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		C5943DB2A1BBD3C8D3948550377B2698 /* LZAlertViewHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZAlertViewHelper.m; path = LZAlertViewHelper/Classes/LZAlertViewHelper.m; sourceTree = "<group>"; };
+		C66A42FCB1433D0050A3DDBB9F2991E6 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		CD50EBDDBEE6DE857B4228C48A5F4082 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		CD7EE59DCE2A7C19CE24D4A8178EB0FB /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12C5860C07E09AABE0D435344E951A8 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		D405CB2CF7DB54D6C7CDA9EEC1FBED27 /* Pods-LeanStorageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeanStorageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D584344B60B316213117120A406CB9A9 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		D92FBB56842952D8B2572B44EF51A882 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		E365D8E15111234D0F693AE6973A7EF7 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		E68A92ADC887A496F69572BCF31ABC6D /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		EBF8D6A8D40979C1D6381F6B114D03C8 /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		F09EDE14A23E202BCCDC5829B9DE099B /* LZAlertViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZAlertViewHelper.h; path = LZAlertViewHelper/Classes/LZAlertViewHelper.h; sourceTree = "<group>"; };
+		F2F6C954107EE3B6FCCB3A5A33FA5033 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		F6AB1FCC892844A9E639057F393F22CF /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		F84109C176B220354BBF78C71FAE7B75 /* Pods-LeanStorageDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeanStorageDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F91BBE0B714441E192021AE8D445FC11 /* libPods-LeanStorageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanStorageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5F9BEEBB91EBA4AC66B823F2901423 /* Pods-LeanStorageDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeanStorageDemo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013241538CE38FC86B4F9464F563B277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841285EB8D0B3F8389FFE1BB6071AA4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BA3773F900A177440C68286556073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD72E8DA6CED6A1B7A9A460BEFE33DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E3D368C602F131A0458176D3D1ADEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A266573BDE98BEE4D24826F869D09F8 /* Pods-LeanStorageDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37D9E6EAEF90ABE65BEC9B5186BD6E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF73AD9975B3CDB8DDD36083F37ED97 /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A266573BDE98BEE4D24826F869D09F8 /* Pods-LeanStorageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F84109C176B220354BBF78C71FAE7B75 /* Pods-LeanStorageDemo-acknowledgements.markdown */,
+				A79E83253F49FC025A4794BD5F1B34C4 /* Pods-LeanStorageDemo-acknowledgements.plist */,
+				04BABFBCBEC5CB52784A0B8DF24935D6 /* Pods-LeanStorageDemo-dummy.m */,
+				FD5F9BEEBB91EBA4AC66B823F2901423 /* Pods-LeanStorageDemo-frameworks.sh */,
+				5A9A9EB799388F0427D25A12391C4E14 /* Pods-LeanStorageDemo-resources.sh */,
+				D405CB2CF7DB54D6C7CDA9EEC1FBED27 /* Pods-LeanStorageDemo.debug.xcconfig */,
+				A27DFFBEB52B84E8D09C834FDDF12754 /* Pods-LeanStorageDemo.release.xcconfig */,
+			);
+			name = "Pods-LeanStorageDemo";
+			path = "Target Support Files/Pods-LeanStorageDemo";
+			sourceTree = "<group>";
+		};
+		702FC11D0F3F5068352025CA56731773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE84F595EA38478959A396DEC9C533BD /* AVOSCloud */,
+				BDB633F7BDEDC2CF803F2DAFA1CBF8FA /* LZAlertViewHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D220B3A722CFA9EA20C698A3D152DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F2DC8E5F2C4A0E4A4EA45E655016A6 /* libLZAlertViewHelper.a */,
+				F91BBE0B714441E192021AE8D445FC11 /* libPods-LeanStorageDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				702FC11D0F3F5068352025CA56731773 /* Pods */,
+				7D220B3A722CFA9EA20C698A3D152DEB /* Products */,
+				21E3D368C602F131A0458176D3D1ADEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97FB2863DC899EC127E4A68C7E8C3E53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F6C9C6ECE84829A863419C917B018B /* LZAlertViewHelper.xcconfig */,
+				95282DCE625FC0CC74966A2C1805A000 /* LZAlertViewHelper-dummy.m */,
+				ABA94FA636097F3A17F7DE38A422EA47 /* LZAlertViewHelper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LZAlertViewHelper";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB633F7BDEDC2CF803F2DAFA1CBF8FA /* LZAlertViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F09EDE14A23E202BCCDC5829B9DE099B /* LZAlertViewHelper.h */,
+				C5943DB2A1BBD3C8D3948550377B2698 /* LZAlertViewHelper.m */,
+				97FB2863DC899EC127E4A68C7E8C3E53 /* Support Files */,
+			);
+			path = LZAlertViewHelper;
+			sourceTree = "<group>";
+		};
+		BE84F595EA38478959A396DEC9C533BD /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				F2F6C954107EE3B6FCCB3A5A33FA5033 /* AVACL.h */,
+				1DA648950CAA27C1C8053124CB9186E8 /* AVAnalytics.h */,
+				8A530DBA9F68334D95AD9B9AA888BE63 /* AVAnonymousUtils.h */,
+				D92FBB56842952D8B2572B44EF51A882 /* AVAvailability.h */,
+				9BBB262D945C17359D1798C331070D15 /* AVCloud.h */,
+				977DE5C6A4DAA9AF552187343AFE447C /* AVCloudQueryResult.h */,
+				30D4D3C8020CCBB04501E3772DE830CF /* AVConstants.h */,
+				E68A92ADC887A496F69572BCF31ABC6D /* AVFile.h */,
+				EBF8D6A8D40979C1D6381F6B114D03C8 /* AVFileQuery.h */,
+				5AE4CA0DC277540E9B16EDF9C0B1D842 /* AVGeoPoint.h */,
+				45D4612AC06FA8BF161663E4D2221628 /* AVGroup.h */,
+				25E80603380D9524959185A0FF3040A7 /* AVHistoryMessage.h */,
+				8FF481E5794614C2A8F8DA5B2B5AE61E /* AVHistoryMessageQuery.h */,
+				CD50EBDDBEE6DE857B4228C48A5F4082 /* AVInstallation.h */,
+				D12C5860C07E09AABE0D435344E951A8 /* AVLogger.h */,
+				D584344B60B316213117120A406CB9A9 /* AVMessage.h */,
+				F6AB1FCC892844A9E639057F393F22CF /* AVObject.h */,
+				20461D5589154FEC1F7980EF61923360 /* AVObject+Subclass.h */,
+				48A656A50643E5804C826CC05B790A3E /* AVOSCloud.h */,
+				642F5EC7A061BBE7706CC8AFE27605C0 /* AVPush.h */,
+				02793FFAB9AB20B0AF3AC3858FD2369B /* AVQuery.h */,
+				C66A42FCB1433D0050A3DDBB9F2991E6 /* AVRelation.h */,
+				B0C44132C1242DA21C65D6C1974FDD5F /* AVRole.h */,
+				B3E4274241416520E06C53BA8265CB5D /* AVSaveOption.h */,
+				2769D6DD3FA42D56A6EDECDDE3A65892 /* AVSearchQuery.h */,
+				3B01C8F6056FAE914983551DEF96BD9B /* AVSearchSortBuilder.h */,
+				CD7EE59DCE2A7C19CE24D4A8178EB0FB /* AVSession.h */,
+				E365D8E15111234D0F693AE6973A7EF7 /* AVSignature.h */,
+				2CB28CC226D603C2F5ADACAFEAFE3626 /* AVStatus.h */,
+				88FDCACF72FC538F0963FEE709AB46C6 /* AVSubclassing.h */,
+				0A37BADACE050D41EDA8DE11F4F46D81 /* AVUser.h */,
+				37D9E6EAEF90ABE65BEC9B5186BD6E19 /* Frameworks */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7D12A7D615E7AC756D663160406BF3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E86F4F1D57CEDE832E49ED45A57752D /* LZAlertViewHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02A87E38DE11E16B12FD9F2254125E7F /* LZAlertViewHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DBE401711D57518A3C95862B3A79F9 /* Build configuration list for PBXNativeTarget "LZAlertViewHelper" */;
+			buildPhases = (
+				DC15457638995FCD4DC2837EC69D219E /* Sources */,
+				867BA3773F900A177440C68286556073 /* Frameworks */,
+				A7D12A7D615E7AC756D663160406BF3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZAlertViewHelper;
+			productName = LZAlertViewHelper;
+			productReference = 47F2DC8E5F2C4A0E4A4EA45E655016A6 /* libLZAlertViewHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F0382627E6BDA841AC55C45E0052C643 /* Pods-LeanStorageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30F92F0B5E5B7FE3F1252B79F443870 /* Build configuration list for PBXNativeTarget "Pods-LeanStorageDemo" */;
+			buildPhases = (
+				A10B12F5304CD7AB45D18ACADEF3E6B7 /* Sources */,
+				013241538CE38FC86B4F9464F563B277 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E7EB274DAE1BC9460804CF423DE53F /* PBXTargetDependency */,
+			);
+			name = "Pods-LeanStorageDemo";
+			productName = "Pods-LeanStorageDemo";
+			productReference = F91BBE0B714441E192021AE8D445FC11 /* libPods-LeanStorageDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7D220B3A722CFA9EA20C698A3D152DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02A87E38DE11E16B12FD9F2254125E7F /* LZAlertViewHelper */,
+				F0382627E6BDA841AC55C45E0052C643 /* Pods-LeanStorageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10B12F5304CD7AB45D18ACADEF3E6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D66868C3F8BE956CD3824CDEA1790 /* Pods-LeanStorageDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC15457638995FCD4DC2837EC69D219E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69492EF843BF42DCC055F66C15612EE /* LZAlertViewHelper-dummy.m in Sources */,
+				1A9019F62F7053871D79BF71B4655275 /* LZAlertViewHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E7EB274DAE1BC9460804CF423DE53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LZAlertViewHelper;
+			target = 02A87E38DE11E16B12FD9F2254125E7F /* LZAlertViewHelper */;
+			targetProxy = C19763268114845664BE51F645A3CDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DAAD67545DB3F3546C9732124679115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F6C9C6ECE84829A863419C917B018B /* LZAlertViewHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LZAlertViewHelper/LZAlertViewHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E225F9B270A84CD329520C57224912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F6C9C6ECE84829A863419C917B018B /* LZAlertViewHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LZAlertViewHelper/LZAlertViewHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAD52D439A9CA273381BD6D55F6A6151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D405CB2CF7DB54D6C7CDA9EEC1FBED27 /* Pods-LeanStorageDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBABA8776A609BF36B683E731039F2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27DFFBEB52B84E8D09C834FDDF12754 /* Pods-LeanStorageDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DBE401711D57518A3C95862B3A79F9 /* Build configuration list for PBXNativeTarget "LZAlertViewHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E225F9B270A84CD329520C57224912D /* Debug */,
+				1DAAD67545DB3F3546C9732124679115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30F92F0B5E5B7FE3F1252B79F443870 /* Build configuration list for PBXNativeTarget "Pods-LeanStorageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD52D439A9CA273381BD6D55F6A6151 /* Debug */,
+				DBABA8776A609BF36B683E731039F2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

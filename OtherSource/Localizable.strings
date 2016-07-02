@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  AVOSDemo
+
+  Created by Travis on 13-12-12.
+  Copyright (c) 2013年 AVOS. All rights reserved.
+*/
+
+// verbs
+"Create"    ="创建";
+"Add"       ="添加";
+"Update"    ="更新";
+"Delete"    ="删除";
+"Get"       ="获取";
+"Register"  ="注册";
+"Login"     ="登录";
+"Reset"     ="重置";
+"Request"   ="请求";
+"Verify"    ="验证";
+"Logout"    ="注销";
+"Combine"   ="结合";
+"Clear"     ="清除";
+"Remove"    ="移除";
+"Fetch"     ="获取";
+"Relate"    ="关联";
+"Limit"     ="限制";
+"Include"   ="包含";
+"Read"      ="读取";
+"Write"     ="写入";
+"Call"      ="调用";
+
+// adv
+"By"        ="按";
+"From"      ="从";
+"With"      ="用";
+"Only"      ="仅";
+"To"        ="来";
+"And"       ="和";
+"Batch"     ="批量";
+"Not"       ="不";
+"Or"        ="或";
+"Upload"    ="上传";
+
+// noun
+"Object"    ="对象";
+"File"      ="文件";
+"Query"     ="查询";
+"Class"     ="类";
+"Subclass"  ="子类";
+"User"      ="用户";
+"Relation"  ="关联";
+"Name"      ="名称";
+"Path"      ="路径";
+"Geo"       ="地理位置";
+"Thumbnail" ="缩略图";
+"Member"    ="成员";
+"Result"    ="结果";
+"Count"     ="数量";
+"Password"  ="密码";
+"Keyword"   ="关键词";
+"Sms"       ="短信";
+"Code"      ="验证码";
+"Email"     ="邮箱";
+"Phone"     ="手机";
+"Number"    ="号码";
+"Username"  ="用户名";
+"Data"      ="数据";
+"Qiniu"     ="七牛";
+"Api"       ="接口";
+"Cache"     ="缓存";
+"Offline"   ="离线";
+"Counter"   ="计数器";
+"Array"     ="数组";
+"One"       ="一";
+"Two"       ="二";
+"Dictionary"="字典";
+"Policy"    ="策略";
+"Single"    ="一个";
+"Key"       ="字段";
+"Condition" ="条件";
+"Order"     ="排序";
+"Size"      ="大小";
+"Regex"     ="正则表达式";
+"Local"     ="本地";
+"Server"    ="服务器";
+"Date"      ="时间";
+"Network"   ="网络";
+"Timeout"   ="超时";
+"Config"    ="设置";
+"Keys"      ="字段";
+"Type"      ="类型";
+"Subscripting"="下标";
+"Cloud"     ="云";
+"Function"  ="函数";
+"Extension" ="后缀";
+
+// adj
+"Second"    ="第二";
+"Old"       ="旧";
+"Current"   ="当前";
+"Anonymous" ="匿名";
+"Meta"      ="元";
+"All"       ="所有";
+"Multiple"  ="多个";
+"Descending"="降序";
+"Reverse"   ="反向";
+"Unique"    ="唯一";
+"Full"      ="整个";

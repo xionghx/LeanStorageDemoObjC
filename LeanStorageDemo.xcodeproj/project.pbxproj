@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1E0FB718585AD200E9097E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E0FB618585AD200E9097E /* main.m */; };
+		1F1E0FBC18585C0E00E9097E /* html in Resources */ = {isa = PBXBuildFile; fileRef = 1F1E0FBB18585C0E00E9097E /* html */; };
+		1F66B1FE185EA8870034AA65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F66B1FD185EA8870034AA65 /* AppDelegate.m */; };
+		1F66B205185EA8B40034AA65 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F66B200185EA8B40034AA65 /* cloud.png */; };
+		1F66B206185EA8B40034AA65 /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F66B201185EA8B40034AA65 /* cloud@2x.png */; };
+		1F66B207185EA8B40034AA65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F66B202185EA8B40034AA65 /* Images.xcassets */; };
+		1F66B208185EA8B40034AA65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F66B203185EA8B40034AA65 /* Localizable.strings */; };
+		1FAA7D581859551C00A2065B /* DemoConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA7D571859551C00A2065B /* DemoConfig.plist */; };
+		706270F91B9578C900CE6882 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 706270F01B9578C900CE6882 /* Demo.m */; };
+		706270FA1B9578C900CE6882 /* DemoListC.m in Sources */ = {isa = PBXBuildFile; fileRef = 706270F11B9578C900CE6882 /* DemoListC.m */; };
+		706270FB1B9578C900CE6882 /* DemoRunC.m in Sources */ = {isa = PBXBuildFile; fileRef = 706270F31B9578C900CE6882 /* DemoRunC.m */; };
+		706270FC1B9578C900CE6882 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706270F51B9578C900CE6882 /* SourceViewController.m */; };
+		706270FD1B9578C900CE6882 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706270F81B9578C900CE6882 /* ImageViewController.m */; };
+		706271011B9578D900CE6882 /* PBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706271001B9578D900CE6882 /* PBWebViewController.m */; };
+		706780151B244837002F1413 /* CQLBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 706780141B244837002F1413 /* CQLBasic.m */; };
+		706F85A71B847A0E0079CC55 /* alpacino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706F85A61B847A0E0079CC55 /* alpacino.jpg */; };
+		706F85AA1B84D2DF0079CC55 /* PointerBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 706F85A91B84D2DF0079CC55 /* PointerBasic.m */; };
+		706F85AD1B84D5280079CC55 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 706F85AC1B84D5280079CC55 /* Post.m */; };
+		708F55491B85D9C60071CA48 /* OtherBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F55481B85D9C60071CA48 /* OtherBasic.m */; };
+		708F55521B86F1940071CA48 /* EngineBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F55511B86F1940071CA48 /* EngineBasic.m */; };
+		709679AA1B0EEF2B00BB43D8 /* AVAnalyticsBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679971B0EEF2B00BB43D8 /* AVAnalyticsBasic.m */; };
+		709679AB1B0EEF2B00BB43D8 /* AVFileBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679991B0EEF2B00BB43D8 /* AVFileBasic.m */; };
+		709679AC1B0EEF2B00BB43D8 /* AVObjectBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7096799B1B0EEF2B00BB43D8 /* AVObjectBasic.m */; };
+		709679AD1B0EEF2B00BB43D8 /* AVQueryBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7096799D1B0EEF2B00BB43D8 /* AVQueryBasic.m */; };
+		709679AE1B0EEF2B00BB43D8 /* AVRelationBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7096799F1B0EEF2B00BB43D8 /* AVRelationBasic.m */; };
+		709679AF1B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679A11B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.m */; };
+		709679B01B0EEF2B00BB43D8 /* AVSMSBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679A31B0EEF2B00BB43D8 /* AVSMSBasic.m */; };
+		709679B21B0EEF2B00BB43D8 /* AVUserBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679A71B0EEF2B00BB43D8 /* AVUserBasic.m */; };
+		709679B31B0EEF2B00BB43D8 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 709679A91B0EEF2B00BB43D8 /* Student.m */; };
+		70CD757D1B94BCDF00882317 /* Demo+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD757C1B94BCDF00882317 /* Demo+Utils.m */; };
+		70CD758C1B94C85500882317 /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD758B1B94C85500882317 /* SearchResultController.m */; };
+		BF9D2493766D95F09C283BFF /* libPods-LeanStorageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07540DE102BFA9DD3D0D8D6A /* libPods-LeanStorageDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07540DE102BFA9DD3D0D8D6A /* libPods-LeanStorageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeanStorageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C92326EDD4FF726E60BC68A /* Pods-LeanStorageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanStorageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanStorageDemo/Pods-LeanStorageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1F1E0FB618585AD200E9097E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F1E0FBB18585C0E00E9097E /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = OtherSource/html; sourceTree = SOURCE_ROOT; };
+		1F3AF9AD1828C6DE003277B5 /* LeanStorageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanStorageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F66B1FC185EA8870034AA65 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F66B1FD185EA8870034AA65 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F66B1FF185EA8B40034AA65 /* LeanStorageDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LeanStorageDemo-Info.plist"; path = "OtherSource/LeanStorageDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1F66B200185EA8B40034AA65 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = OtherSource/cloud.png; sourceTree = SOURCE_ROOT; };
+		1F66B201185EA8B40034AA65 /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud@2x.png"; path = "OtherSource/cloud@2x.png"; sourceTree = SOURCE_ROOT; };
+		1F66B202185EA8B40034AA65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OtherSource/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		1F66B203185EA8B40034AA65 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = OtherSource/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		1FAA7D571859551C00A2065B /* DemoConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DemoConfig.plist; path = OtherSource/DemoConfig.plist; sourceTree = SOURCE_ROOT; };
+		706270EF1B9578C900CE6882 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		706270F01B9578C900CE6882 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
+		706270F11B9578C900CE6882 /* DemoListC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListC.m; sourceTree = "<group>"; };
+		706270F21B9578C900CE6882 /* DemoRunC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRunC.h; sourceTree = "<group>"; };
+		706270F31B9578C900CE6882 /* DemoRunC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRunC.m; sourceTree = "<group>"; };
+		706270F41B9578C900CE6882 /* DemoListC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListC.h; sourceTree = "<group>"; };
+		706270F51B9578C900CE6882 /* SourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		706270F61B9578C900CE6882 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		706270F71B9578C900CE6882 /* SourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		706270F81B9578C900CE6882 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		706270FF1B9578D900CE6882 /* PBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebViewController.h; sourceTree = "<group>"; };
+		706271001B9578D900CE6882 /* PBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebViewController.m; sourceTree = "<group>"; };
+		706780131B244837002F1413 /* CQLBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQLBasic.h; sourceTree = "<group>"; };
+		706780141B244837002F1413 /* CQLBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQLBasic.m; sourceTree = "<group>"; };
+		706F85A61B847A0E0079CC55 /* alpacino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alpacino.jpg; path = OtherSource/alpacino.jpg; sourceTree = SOURCE_ROOT; };
+		706F85A81B84D2DF0079CC55 /* PointerBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerBasic.h; sourceTree = "<group>"; };
+		706F85A91B84D2DF0079CC55 /* PointerBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerBasic.m; sourceTree = "<group>"; };
+		706F85AB1B84D5280079CC55 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		706F85AC1B84D5280079CC55 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		708F55471B85D9C60071CA48 /* OtherBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherBasic.h; sourceTree = "<group>"; };
+		708F55481B85D9C60071CA48 /* OtherBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherBasic.m; sourceTree = "<group>"; };
+		708F55501B86F1940071CA48 /* EngineBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineBasic.h; sourceTree = "<group>"; };
+		708F55511B86F1940071CA48 /* EngineBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngineBasic.m; sourceTree = "<group>"; };
+		709679961B0EEF2B00BB43D8 /* AVAnalyticsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAnalyticsBasic.h; sourceTree = "<group>"; };
+		709679971B0EEF2B00BB43D8 /* AVAnalyticsBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAnalyticsBasic.m; sourceTree = "<group>"; };
+		709679981B0EEF2B00BB43D8 /* AVFileBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFileBasic.h; sourceTree = "<group>"; };
+		709679991B0EEF2B00BB43D8 /* AVFileBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFileBasic.m; sourceTree = "<group>"; };
+		7096799A1B0EEF2B00BB43D8 /* AVObjectBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVObjectBasic.h; sourceTree = "<group>"; };
+		7096799B1B0EEF2B00BB43D8 /* AVObjectBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVObjectBasic.m; sourceTree = "<group>"; };
+		7096799C1B0EEF2B00BB43D8 /* AVQueryBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQueryBasic.h; sourceTree = "<group>"; };
+		7096799D1B0EEF2B00BB43D8 /* AVQueryBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVQueryBasic.m; sourceTree = "<group>"; };
+		7096799E1B0EEF2B00BB43D8 /* AVRelationBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRelationBasic.h; sourceTree = "<group>"; };
+		7096799F1B0EEF2B00BB43D8 /* AVRelationBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRelationBasic.m; sourceTree = "<group>"; };
+		709679A01B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSearchQueryAdvanced.h; sourceTree = "<group>"; };
+		709679A11B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSearchQueryAdvanced.m; sourceTree = "<group>"; };
+		709679A21B0EEF2B00BB43D8 /* AVSMSBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSMSBasic.h; sourceTree = "<group>"; };
+		709679A31B0EEF2B00BB43D8 /* AVSMSBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSMSBasic.m; sourceTree = "<group>"; };
+		709679A61B0EEF2B00BB43D8 /* AVUserBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVUserBasic.h; sourceTree = "<group>"; };
+		709679A71B0EEF2B00BB43D8 /* AVUserBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVUserBasic.m; sourceTree = "<group>"; };
+		709679A81B0EEF2B00BB43D8 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		709679A91B0EEF2B00BB43D8 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		70CD757B1B94BCDF00882317 /* Demo+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo+Utils.h"; sourceTree = "<group>"; };
+		70CD757C1B94BCDF00882317 /* Demo+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Demo+Utils.m"; sourceTree = "<group>"; };
+		70CD75891B94C81F00882317 /* LeanStorageDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanStorageDemo-Prefix.pch"; sourceTree = "<group>"; };
+		70CD758A1B94C85500882317 /* SearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
+		70CD758B1B94C85500882317 /* SearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
+		DB5EAEC5FDEBA56782FAA647 /* Pods-LeanStorageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanStorageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanStorageDemo/Pods-LeanStorageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3AF9AA1828C6DE003277B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9D2493766D95F09C283BFF /* libPods-LeanStorageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1E0FB518585AD200E9097E /* OtherSource */ = {
+			isa = PBXGroup;
+			children = (
+				706270EF1B9578C900CE6882 /* Demo.h */,
+				706270F01B9578C900CE6882 /* Demo.m */,
+				706270F41B9578C900CE6882 /* DemoListC.h */,
+				706270F11B9578C900CE6882 /* DemoListC.m */,
+				706270F21B9578C900CE6882 /* DemoRunC.h */,
+				706270F31B9578C900CE6882 /* DemoRunC.m */,
+				706270F51B9578C900CE6882 /* SourceViewController.m */,
+				706270F61B9578C900CE6882 /* ImageViewController.h */,
+				706270F71B9578C900CE6882 /* SourceViewController.h */,
+				706270F81B9578C900CE6882 /* ImageViewController.m */,
+				70CD758A1B94C85500882317 /* SearchResultController.h */,
+				70CD758B1B94C85500882317 /* SearchResultController.m */,
+				70CD75891B94C81F00882317 /* LeanStorageDemo-Prefix.pch */,
+				1F1E0FB618585AD200E9097E /* main.m */,
+				1F66B1FC185EA8870034AA65 /* AppDelegate.h */,
+				1F66B1FD185EA8870034AA65 /* AppDelegate.m */,
+				70CD757B1B94BCDF00882317 /* Demo+Utils.h */,
+				70CD757C1B94BCDF00882317 /* Demo+Utils.m */,
+			);
+			path = OtherSource;
+			sourceTree = "<group>";
+		};
+		1F3AF9A41828C6DE003277B5 = {
+			isa = PBXGroup;
+			children = (
+				709679951B0EEF2B00BB43D8 /* LeanStorageDemo */,
+				1F1E0FB518585AD200E9097E /* OtherSource */,
+				706270FE1B9578D900CE6882 /* PBWebViewController */,
+				1F3AF9B71828C6DE003277B5 /* Supporting Files */,
+				1F3AF9AE1828C6DE003277B5 /* Products */,
+				F79596D9E25631625E4112F5 /* Pods */,
+				AF0CD71A68310C6D3DEC12ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3AF9AE1828C6DE003277B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3AF9AD1828C6DE003277B5 /* LeanStorageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3AF9B71828C6DE003277B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAA7D571859551C00A2065B /* DemoConfig.plist */,
+				1F66B1FF185EA8B40034AA65 /* LeanStorageDemo-Info.plist */,
+				1F66B200185EA8B40034AA65 /* cloud.png */,
+				706F85A61B847A0E0079CC55 /* alpacino.jpg */,
+				1F66B201185EA8B40034AA65 /* cloud@2x.png */,
+				1F66B202185EA8B40034AA65 /* Images.xcassets */,
+				1F66B203185EA8B40034AA65 /* Localizable.strings */,
+				1F1E0FBB18585C0E00E9097E /* html */,
+			);
+			name = "Supporting Files";
+			path = AVOSDemo;
+			sourceTree = "<group>";
+		};
+		706270FE1B9578D900CE6882 /* PBWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				706270FF1B9578D900CE6882 /* PBWebViewController.h */,
+				706271001B9578D900CE6882 /* PBWebViewController.m */,
+			);
+			path = PBWebViewController;
+			sourceTree = "<group>";
+		};
+		709679951B0EEF2B00BB43D8 /* LeanStorageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				709679961B0EEF2B00BB43D8 /* AVAnalyticsBasic.h */,
+				709679971B0EEF2B00BB43D8 /* AVAnalyticsBasic.m */,
+				709679981B0EEF2B00BB43D8 /* AVFileBasic.h */,
+				709679991B0EEF2B00BB43D8 /* AVFileBasic.m */,
+				7096799A1B0EEF2B00BB43D8 /* AVObjectBasic.h */,
+				7096799B1B0EEF2B00BB43D8 /* AVObjectBasic.m */,
+				7096799C1B0EEF2B00BB43D8 /* AVQueryBasic.h */,
+				7096799D1B0EEF2B00BB43D8 /* AVQueryBasic.m */,
+				7096799E1B0EEF2B00BB43D8 /* AVRelationBasic.h */,
+				7096799F1B0EEF2B00BB43D8 /* AVRelationBasic.m */,
+				709679A01B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.h */,
+				709679A11B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.m */,
+				706F85A81B84D2DF0079CC55 /* PointerBasic.h */,
+				706F85A91B84D2DF0079CC55 /* PointerBasic.m */,
+				709679A21B0EEF2B00BB43D8 /* AVSMSBasic.h */,
+				709679A31B0EEF2B00BB43D8 /* AVSMSBasic.m */,
+				709679A61B0EEF2B00BB43D8 /* AVUserBasic.h */,
+				709679A71B0EEF2B00BB43D8 /* AVUserBasic.m */,
+				708F55471B85D9C60071CA48 /* OtherBasic.h */,
+				708F55481B85D9C60071CA48 /* OtherBasic.m */,
+				706780131B244837002F1413 /* CQLBasic.h */,
+				706780141B244837002F1413 /* CQLBasic.m */,
+				708F55501B86F1940071CA48 /* EngineBasic.h */,
+				708F55511B86F1940071CA48 /* EngineBasic.m */,
+				709679A81B0EEF2B00BB43D8 /* Student.h */,
+				709679A91B0EEF2B00BB43D8 /* Student.m */,
+				706F85AB1B84D5280079CC55 /* Post.h */,
+				706F85AC1B84D5280079CC55 /* Post.m */,
+			);
+			path = LeanStorageDemo;
+			sourceTree = "<group>";
+		};
+		AF0CD71A68310C6D3DEC12ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07540DE102BFA9DD3D0D8D6A /* libPods-LeanStorageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79596D9E25631625E4112F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C92326EDD4FF726E60BC68A /* Pods-LeanStorageDemo.debug.xcconfig */,
+				DB5EAEC5FDEBA56782FAA647 /* Pods-LeanStorageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3AF9AC1828C6DE003277B5 /* LeanStorageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3AF9E21828C6DE003277B5 /* Build configuration list for PBXNativeTarget "LeanStorageDemo" */;
+			buildPhases = (
+				ECAB2276AFAF70F349D93CB4 /* [CP] Check Pods Manifest.lock */,
+				1F3AF9A91828C6DE003277B5 /* Sources */,
+				1F3AF9AA1828C6DE003277B5 /* Frameworks */,
+				1F3AF9AB1828C6DE003277B5 /* Resources */,
+				1FBD6BDA18584F7200339D17 /* Copy Source Code Files */,
+				D8BDB0576F9DE693CFDEC8E2 /* [CP] Copy Pods Resources */,
+				2EE22C5A79370FD25D2DBC49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanStorageDemo;
+			productName = AVOSDemo;
+			productReference = 1F3AF9AD1828C6DE003277B5 /* LeanStorageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3AF9A51828C6DE003277B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AVOS;
+				TargetAttributes = {
+					1F3AF9AC1828C6DE003277B5 = {
+						DevelopmentTeam = PBRT9CT95H;
+					};
+				};
+			};
+			buildConfigurationList = 1F3AF9A81828C6DE003277B5 /* Build configuration list for PBXProject "LeanStorageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 1F3AF9A41828C6DE003277B5;
+			productRefGroup = 1F3AF9AE1828C6DE003277B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3AF9AC1828C6DE003277B5 /* LeanStorageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3AF9AB1828C6DE003277B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F66B205185EA8B40034AA65 /* cloud.png in Resources */,
+				1F66B208185EA8B40034AA65 /* Localizable.strings in Resources */,
+				706F85A71B847A0E0079CC55 /* alpacino.jpg in Resources */,
+				1F1E0FBC18585C0E00E9097E /* html in Resources */,
+				1F66B207185EA8B40034AA65 /* Images.xcassets in Resources */,
+				1F66B206185EA8B40034AA65 /* cloud@2x.png in Resources */,
+				1FAA7D581859551C00A2065B /* DemoConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FBD6BDA18584F7200339D17 /* Copy Source Code Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Source Code Files";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nset -e\n\nto_path=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SourceCode\"\n\n\n#rm -rf \"${to_path}\"\n#mkdir \"${to_path}\"\n\necho $to_path\n\nrsync -arc --delete ./LeanStorageDemo/*.m \"${to_path}\"\n";
+		};
+		2EE22C5A79370FD25D2DBC49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanStorageDemo/Pods-LeanStorageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BDB0576F9DE693CFDEC8E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanStorageDemo/Pods-LeanStorageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAB2276AFAF70F349D93CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3AF9A91828C6DE003277B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709679AD1B0EEF2B00BB43D8 /* AVQueryBasic.m in Sources */,
+				706270F91B9578C900CE6882 /* Demo.m in Sources */,
+				1F66B1FE185EA8870034AA65 /* AppDelegate.m in Sources */,
+				709679B01B0EEF2B00BB43D8 /* AVSMSBasic.m in Sources */,
+				1F1E0FB718585AD200E9097E /* main.m in Sources */,
+				706270FD1B9578C900CE6882 /* ImageViewController.m in Sources */,
+				709679AB1B0EEF2B00BB43D8 /* AVFileBasic.m in Sources */,
+				706F85AA1B84D2DF0079CC55 /* PointerBasic.m in Sources */,
+				709679AA1B0EEF2B00BB43D8 /* AVAnalyticsBasic.m in Sources */,
+				709679AC1B0EEF2B00BB43D8 /* AVObjectBasic.m in Sources */,
+				70CD758C1B94C85500882317 /* SearchResultController.m in Sources */,
+				706780151B244837002F1413 /* CQLBasic.m in Sources */,
+				706F85AD1B84D5280079CC55 /* Post.m in Sources */,
+				709679AE1B0EEF2B00BB43D8 /* AVRelationBasic.m in Sources */,
+				706270FC1B9578C900CE6882 /* SourceViewController.m in Sources */,
+				709679B21B0EEF2B00BB43D8 /* AVUserBasic.m in Sources */,
+				709679AF1B0EEF2B00BB43D8 /* AVSearchQueryAdvanced.m in Sources */,
+				70CD757D1B94BCDF00882317 /* Demo+Utils.m in Sources */,
+				706270FB1B9578C900CE6882 /* DemoRunC.m in Sources */,
+				708F55491B85D9C60071CA48 /* OtherBasic.m in Sources */,
+				709679B31B0EEF2B00BB43D8 /* Student.m in Sources */,
+				706270FA1B9578C900CE6882 /* DemoListC.m in Sources */,
+				708F55521B86F1940071CA48 /* EngineBasic.m in Sources */,
+				706271011B9578D900CE6882 /* PBWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F3AF9E01828C6DE003277B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F3AF9E11828C6DE003277B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3AF9E31828C6DE003277B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C92326EDD4FF726E60BC68A /* Pods-LeanStorageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSource/LeanStorageDemo-Prefix.pch";
+				INFOPLIST_FILE = "OtherSource/LeanStorageDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avoscloud.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = LeanStorageDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F3AF9E41828C6DE003277B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5EAEC5FDEBA56782FAA647 /* Pods-LeanStorageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSource/LeanStorageDemo-Prefix.pch";
+				INFOPLIST_FILE = "OtherSource/LeanStorageDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avoscloud.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = LeanStorageDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3AF9A81828C6DE003277B5 /* Build configuration list for PBXProject "LeanStorageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3AF9E01828C6DE003277B5 /* Debug */,
+				1F3AF9E11828C6DE003277B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3AF9E21828C6DE003277B5 /* Build configuration list for PBXNativeTarget "LeanStorageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3AF9E31828C6DE003277B5 /* Debug */,
+				1F3AF9E41828C6DE003277B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F3AF9A51828C6DE003277B5 /* Project object */;
+}
